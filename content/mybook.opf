@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
   <metadata>
-    <dc:rights>Public domain</dc:rights>
+    
     <dc:creator opf:file-as="Unknown, Author">Unknown Author</dc:creator>
     <dc:title>My Untitled Book</dc:title>
     <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
     <dc:date opf:event="publication">2013-10-08</dc:date>
-  </metadata>
+      <dc:description>Testing the oerpub editing tools </dc:description>
+    <dc:rights>Creative Commons Attribution-NonCommercial-ShareAlike - CC BY-NC-SA</dc:rights>
+    <meta xmlns:ns2403728="http://www.idpf.org/2007/opf" ns2403728:property="lrmi:useRightsUrl">http://creativecommons.org/licenses/by-nc-sa/3.0/</meta>
+    <meta xmlns:ns2403728="http://www.idpf.org/2007/opf" ns2403728:properties="dcterms:modified">2015-2-19</meta>
+    <dc:subject xmlns:xsi="http://www.idpf.org/2007/opf" xsi:type="http://github.com/Connexions/rhaptos.cnxmlutils/rhaptos/cnxmlutils/schema">Global Information Technologies </dc:subject>
+</metadata>
   <manifest>
     <item href="mybook-nav.html" media-type="application/xhtml+xml" id="toc" properties="nav"/>
     <item href="module1.html" id="module1.html" media-type="application/xhtml+xml"/>
